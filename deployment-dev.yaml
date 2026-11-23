@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: henleycw/225-lab4-1:latest
+          image: cithit/henleycw:latest
           ports:
             - containerPort: 5000
           volumeMounts:
